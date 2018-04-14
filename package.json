@@ -6,6 +6,9 @@
   "bin": {
     "ninetails": "./index.js"
   },
+  "scripts": {
+    "precommit": "eslint ."
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ninetails/bin.git"
@@ -22,6 +25,7 @@
   "homepage": "https://github.com/ninetails/bin#readme",
   "devDependencies": {
     "babel-eslint": "^8.2.3",
-    "eslint": "^4.19.1"
+    "eslint": "^4.19.1",
+    "husky": "^0.14.3"
   }
 }
