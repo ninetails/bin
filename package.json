@@ -27,7 +27,9 @@
   "devDependencies": {
     "babel-eslint": "^8.2.3",
     "eslint": "^4.19.1",
-    "husky": "^0.14.3",
+    "husky": "^0.14.3"
+  },
+  "dependencies": {
     "inquirer": "^5.2.0"
   }
 }
