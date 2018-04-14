@@ -1,0 +1,19 @@
+{
+  "name": "@ninetails/bin",
+  "version": "0.0.1",
+  "description": "Binary utilities",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ninetails/bin.git"
+  },
+  "keywords": [
+    "utils",
+    "ninetails"
+  ],
+  "author": "Ninetails - Carlos Kazuo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ninetails/bin/issues"
+  },
+  "homepage": "https://github.com/ninetails/bin#readme"
+}
