@@ -6,13 +6,13 @@ const url = 'https://api.github.com/user/repos'
 const questions = [
   {
     name: 'user',
-    message: 'Username',
+    message: 'Username:',
     type: 'input',
     validate: input => !!input
   },
   {
     name: 'repo',
-    message: 'Repository name',
+    message: 'Repository name:',
     type: 'input',
     validate: input => !!input
   }
