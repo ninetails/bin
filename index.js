@@ -3,19 +3,23 @@ const { prompt } = require('inquirer')
 
 const questions = [
   {
-    name: 'script',
-    message: 'What script to run?',
+    name: 'category',
+    message: 'Choose a category',
     type: 'list',
     choices: [
       {
-        name: 'Create a github repository',
-        value: 'create-github-repo'
+        name: 'Docker',
+        value: 'docker'
+      },
+      {
+        name: 'Github',
+        value: 'github'
       }
     ]
   }
 ];
 
 (async () => {
-  const { script } = await prompt(questions)
-  require(`./scripts/${script}`)()
+  const { category } = await prompt(questions)
+  require(`./scripts/${category}`)()
 })()
