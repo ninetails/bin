@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/ninetails/bin/issues"
   },
-  "homepage": "https://github.com/ninetails/bin#readme"
+  "homepage": "https://github.com/ninetails/bin#readme",
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1"
+  }
 }
