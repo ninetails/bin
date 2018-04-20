@@ -1,6 +1,6 @@
 {
   "name": "@ninestuff/bin",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Binary utilities",
   "main": "index.js",
   "bin": {
